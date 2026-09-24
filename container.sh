@@ -19,3 +19,6 @@ docker stop web
 
 docker rm hello-world
 docker rm web
+
+docker build -t index.html .
+
