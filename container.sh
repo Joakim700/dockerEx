@@ -9,5 +9,5 @@ docker exec hello-world ls /usr/share/nginx/html
 docker logs hello-world
 
 docker run --name "web" -d nginx
-docker exec web ls /user/share/nginx/html
+docker exec web ls
 docker logs web
