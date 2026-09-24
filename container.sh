@@ -11,3 +11,9 @@ docker logs hello-world
 docker run --name "web" -d nginx
 docker exec web ls
 docker logs web
+
+docker stop hello-world
+docker stop web
+
+docker rm hello-world
+docker rm web
