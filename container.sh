@@ -1,4 +1,3 @@
-
 set -e
 
 CONATINER_NAME="hello-world"
@@ -14,8 +13,6 @@ docker exec web ls
 docker logs web
 
 docker run --name "index.html" -d nginx
-docker exec index.html ls
-docker logs index.html
 
 docker stop hello-world
 docker stop web
