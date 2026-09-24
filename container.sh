@@ -4,6 +4,8 @@ CONATINER_NAME="hello-world"
 CONTAINER_NAME="web"
 CONTAINER_NAME="index.html"
 
+docker run --name "$index.html" -d -p 8000:8000 mit-projekt-image
+
 docker run --name "hello-world" -d nginx
 docker exec hello-world ls /usr/share/nginx/html
 docker logs hello-world
