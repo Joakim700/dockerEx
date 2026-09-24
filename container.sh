@@ -11,7 +11,7 @@ docker run --name web -d nginx
 docker exec web ls /usr/share/nginx/html
 docker logs web
 
-docker run --name app-index -d -p 8000:8000 mit-projekt-image
+docker run --name app-index -d -p 8000:8000 minside
 docker exec app-index ls /app
 docker logs app-index
 
